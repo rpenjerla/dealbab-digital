@@ -602,10 +602,10 @@ ul.brand-logos li img{width:70px;}
 #menu .nav > li:hover > .dropdown-menu.custom_block ul { display:table-cell; }
 #menu .nav > li > .dropdown-menu > ul { display:table-cell; }
 #menu .nav > li > div > .column a span, #menu .nav > li > div > ul li a span {
-	font-size:18px;
+	/*font-size:18px;
 	line-height:13px;
 	position:absolute;
-	right:8px;
+	right:8px;*/
 }
 #menu .nav > li > div > ul {
 	position:relative;
@@ -648,7 +648,8 @@ ul.brand-logos li img{width:70px;}
 	display:none;
 	background:#fff;
 	margin-left:0px!important;
-	width:100%;
+	/*width:100%;*/
+	width:50%;
 	position:absolute;
 	padding:10px 0px 0px 0px;
 }
@@ -657,8 +658,8 @@ ul.brand-logos li img{width:70px;}
 }
 #menu .nav > li.mega-menu .navHeading{
 	padding:10px;
-	margin-right:15px;
-	margin-left:15px;
+	/*margin-right:15px;
+	margin-left:15px;*/
 	border-bottom:1px solid #ccc;
 	margin-bottom:10px
 }
@@ -669,7 +670,7 @@ ul.brand-logos li img{width:70px;}
     font-weight: bold;
 }
 .items{
-	padding-top:20px;
+	
 }
 #menu .nav > li.mega-menu .navHeading span{
 	color:#00c040;
@@ -679,12 +680,18 @@ ul.brand-logos li img{width:70px;}
 	display:inline-block;
 	margin:0px 0px 15px 0px;
 }
+.logo-display{
+	position: absolute;
+	right:0px;
+	top:0px;
+}
 #menu .nav > li.mega-menu > div > .column > a {
-	font-weight:bold;
+	/*font-weight:bold;
 	font-size:13px;
 	border-bottom:1px solid #ddd;
-	margin-bottom:5px;
+	margin-bottom:5px;*/
 }
+  
 #menu .nav > li.mega-menu > div > .column > a, #menu .nav > li.mega-menu > div > .column > div > ul > li > a {
 	padding:4px 0;
 	display:block;
@@ -1113,6 +1120,7 @@ visibility:hidden;
 	left:16px;
 }
 /**======= 7.6. Rating Star =======**/
+.rating{position: relative;}
 .rating .fa-stack { font-size:6px; }
 .rating .fa-star-o {
 	color: #999;
