@@ -66,8 +66,8 @@
 
                 <!-- Login Start -->
                 <div class="flex-div">
-                  <a class="header-link" href="login.html">Login</a> / <a class="header-link" href="register.html">Sign
-                    up</a>
+                  <a class="header-link" data-toggle="modal" href="javascript:void(0)" onclick="openLoginModal();">Log in</a> /
+                  <a class="header-link" data-toggle="modal" href="javascript:void(0)" onclick="openRegisterModal();">Sign Up</a>
                 </div>
                 <!-- Login End -->
                 <!-- Favourite Icon Start-->
@@ -91,7 +91,6 @@
           <div class="navbar-header"> <span class="visible-xs visible-sm"> Menu <b></b></span></div>
           <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-
               <li class="mega-menu dropdown"><a>All Categories</a>
                 <div class="dropdown-menu set-width">
                   <div class="row navHeading">
@@ -911,6 +910,7 @@
   <script type="text/javascript" src="js/swipebox/lib/ios-orientationchange-fix.js"></script> <!-- New Include -->
   <script type="text/javascript" src="js/swipebox/src/js/jquery.swipebox.min.js"></script> <!-- New Include -->
   <script type="text/javascript" src="js/custom.js"></script>
+  <script type="text/javascript" src="js/login-register.js"></script>
 
   <!-- New Include -->
   <script type="text/javascript">
@@ -934,6 +934,86 @@
     });
   </script>
   <!-- JS Part End-->
-</body>
 
+  <div class="modal fade login" id="loginModal">
+    <div class="modal-dialog login animated">
+      <div class="modal-content">
+         <div class="modal-header">			   
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>			 
+          <img alt="dealbab" src="image/logo.jpg" />
+          <h2 class="modal-title">Login</h2>
+        </div>
+        <div class="modal-body">
+          <div class="box">
+             <div class="content">
+              <div class="social disp-none">
+                <a class="circle github" href="#">
+                  <i class="fa fa-github fa-fw"></i>
+                </a>
+                <a id="google_login" class="circle google" href="#">
+                  <i class="fa fa-google-plus fa-fw"></i>
+                </a>
+                <a id="facebook_login" class="circle facebook" href="#">
+                  <i class="fa fa-facebook fa-fw"></i>
+                </a>
+              </div>
+              <div class="division disp-none">
+                <div class="line l"></div>
+                <span>or</span>
+                <div class="line r"></div>
+              </div>
+              <div class="error"></div>
+              <div class="form loginBox">
+                <form method="" action="" accept-charset="UTF-8">
+                <input id="email" class="form-control" type="text" placeholder="Username / Email Address" name="email">
+                <input id="password" class="form-control" type="password" placeholder="Password" name="password">
+                <div class="row forgot-password">
+                  <div class="col-sm-6 col-xs-12"><input type="checkbox" /> Keep me Logged in</div>
+                  <div class="col-sm-6 col-xs-12"><a href="javascript: showforgotForm();" class="pull-right">Forgot Password ?</a></div>
+                </div>
+                <input class="btn btn-default btn-login" type="button" value="Login" onclick="loginAjax()">
+                </form>
+              </div>
+             </div>
+          </div>
+          <div class="box">
+            <div class="content registerBox" style="display:none;">
+             <div class="form">
+              <form method="" html="{:multipart=>true}" data-remote="true" action="" accept-charset="UTF-8">
+              <input id="email" class="form-control" type="text" placeholder="Username" name="email">
+              <input id="password" class="form-control" type="password" placeholder="Email Address" name="password">
+              <input id="password_confirmation" class="form-control" type="password" placeholder="Password" name="password_confirmation">
+              <input class="btn btn-default btn-register" type="button" value="Sign Up" name="commit">
+              </form>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+          <div class="content forgotBox" style="display:none;">
+           <div class="form">
+              <p>Don't worry ! Just fill in your email and we'll send you a link to reset your password.</p>
+            <form method="" html="{:multipart=>true}" data-remote="true" action="" accept-charset="UTF-8">
+            <input id="email" class="form-control" type="text" placeholder="EMail Address" name="email">					
+            <input class="btn btn-default btn-login" type="button" value="Reset Password" name="commit">
+            </form>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="modal-footer">
+          <div class="forgot login-footer">
+            <span>Not have an account ?
+               <a class="btn-link" href="javascript: showRegisterForm();">Sign Up</a>
+            </span>
+          </div>
+          <div class="forgot register-footer" style="display:none">
+             <span>Already a member ?</span>
+             <a href="javascript: showLoginForm();">Login</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
 </html>
