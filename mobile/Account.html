@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+
+<body>
+    
+        <div id="logo"><a><img class="img-responsive" src="image/logo.png" title="MarketShop"
+             alt="MarketShop" style="width: 70%;margin-left: 11%;"/></a></div>
+      
+    <div>
+    <h1><b>Create your account</b></h1>
+    <h3>Do you already have account? <a href="#"  onclick="RedirectUrl()" target="_blank" style="color:#2ecfff">Sign In</a> </h3><br>
+    <!-- <br> -->
+    <!-- <h3 style="padding-top: 15px;">E-mails</h3> -->
+    <div class="form-group">
+        <label>Username</label>
+        <input for="username" type="text" placeholder="Product Experience" name="username">
+    </div><br><br>
+    <div class="form-group">
+        <label>E-mail</label>
+        <input for="username" type="text" placeholder="productexperience@gmail.com" name="username">
+    </div><br><br>
+    <div class="form-group">
+        <label>Password</label>
+        <input for="username" type="password" placeholder="****************" name="username">
+    </div><br><br><br>
+
+    <div class="button">
+        <button type="submit" onclick="RedirectUrl()"> Create account</button>
+    </div>
+    </div>
+</body>
+
+</html>
+<script>
+    
+    function RedirectUrl(){    
+       window.location.href ="Login.html";
+    }
+    </script>

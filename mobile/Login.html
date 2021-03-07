@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+
+<body>
+    <div>
+        <div id="logo"><a><img class="img-responsive" src="image/logo.png" title="MarketShop"
+            alt="MarketShop" style="width: 70%;margin-left: 11%;"/></a></div>
+    <h1><b>Welcome to Login</b></h1>
+    <h3>Please fill E-mail & password to login your DealBab app account. <a href="#"  onclick="RedirectUrl()" target="_blank" style="color:#2ecfff">Sign Up</a> </h3><br>
+    <!-- <br> -->
+    <!-- <h3 style="padding-top: 15px;">E-mails</h3> -->
+    <div class="form-group">
+        <label>E-mail</label>
+        <input for="username" type="text" placeholder="productexperience@gmail.com" name="username">
+    </div><br><br>
+    <div class="form-group">
+        <label>Password</label>
+        <input for="username" type="password" placeholder="****************" name="username">
+    </div><br><br>
+    <div class="checkbox"> 
+        <label class="form-remember">
+            <input type="checkbox">
+            Remember me</label>
+        <a class="form-recovery">Forgot Password</a>
+    </div><br><br>
+    <div class="button">
+        <button type="submit" onclick="RedirectUrl1()"> Login</button>
+    </div>
+    </div>
+</body>
+
+</html>
+<script>
+    
+    function RedirectUrl(){    
+       window.location.href ="Account.html";
+    }
+    function RedirectUrl1(){    
+       window.location.href ="index.html";
+    }
+    </script>

@@ -1,0 +1,77 @@
+body {
+        background-color: #ffffff;
+        font-family: 'Ubuntu', sans-serif;
+        padding: 17%;
+     }
+h1{
+    font-size: 55px;
+    font-weight: 100;
+} 
+h3{
+    font-size: 42px;
+    font-weight: 100;
+    color: #848382;;
+}   
+a:link {
+    text-decoration: none;
+  }
+.form-group label {
+    display: block;
+    margin: 0 0 10px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 2vh;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+.form-group input {
+    outline: none;
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 4vh;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 500;
+    line-height: inherit;
+    transition: 0.3s ease;
+}
+.checkbox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 0 20px;
+    
+}
+.checkbox .form-remember {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+}
+.checkbox .form-recovery {
+    color: #00adf2;
+    font-size: 12px;
+    text-decoration: none;
+}
+.button button {
+    outline: none;
+    background: #00adf2;
+    width: 100%;
+    border: 0;
+    border-radius: 14px;
+    padding: 12px 20px;
+    color: #FFFFFF;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 500;
+    line-height: inherit;
+    cursor: pointer;
+    height: 4vh;
+}
