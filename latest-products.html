@@ -863,7 +863,13 @@
 <script type="text/javascript" src="js/login-register.js"></script>
 <!-- JS Part End-->
 
+<script type = "text/javascript">
 
+	function Redirect() {
+	   window.location = "my-account.html";
+	}
+ 
+</script>
 <div class="modal fade login" id="loginModal">
 	<div class="modal-dialog login animated">
 		<div class="modal-content">
@@ -900,7 +906,7 @@
 							  <div class="col-sm-6 col-xs-12"><input type="checkbox" /> Keep me Logged in</div>
 							  <div class="col-sm-6 col-xs-12"><a href="javascript: showforgotForm();" class="pull-right">Forgot Password ?</a></div>
 						  </div>
-						  <input class="btn btn-default btn-login" type="button" value="Login" onclick="loginAjax()">
+						  <input class="btn btn-default btn-login" type="button" value="Login" onclick="Redirect()">
 						  </form>
 					  </div>
 				   </div>

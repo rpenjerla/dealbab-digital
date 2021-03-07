@@ -899,7 +899,13 @@
   <script type="text/javascript" src="js/swipebox/src/js/jquery.swipebox.min.js"></script> <!-- New Include -->
   <script type="text/javascript" src="js/custom.js"></script>
   <script type="text/javascript" src="js/login-register.js"></script>
+  <script type = "text/javascript">
 
+    function Redirect() {
+     window.location = "my-account.html";
+    }
+ 
+</script>
   <!-- New Include -->
   <script type="text/javascript">
     // Elevate Zoom for Product Page image <!-- New Include -->
@@ -959,7 +965,7 @@
                   <div class="col-sm-6 col-xs-12"><input type="checkbox" /> Keep me Logged in</div>
                   <div class="col-sm-6 col-xs-12"><a href="javascript: showforgotForm();" class="pull-right">Forgot Password ?</a></div>
                 </div>
-                <input class="btn btn-default btn-login" type="button" value="Login" onclick="loginAjax()">
+                <input class="btn btn-default btn-login" type="button" value="Login" onclick="Redirect()">
                 </form>
               </div>
              </div>

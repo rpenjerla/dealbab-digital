@@ -836,7 +836,7 @@ ul.brand-logos li img{width:70px;}
     margin: 0px 15px;
 }
 .caption{
-	text-align:left;
+	text-align:center;
 }
 .caption h4{
 	overflow: hidden;
@@ -2752,4 +2752,18 @@ ul.comments-secion li:first-child{border:none;padding-left:0px}
 }
 .fix-height{
 	height:304px;
+}
+.hot-coupons{
+	padding:7px 0px
+}
+.hot-coupons img{
+	width:100px;
+	height:100px;
+	
+}
+.padding{
+	padding-bottom:10px;
+}
+.storeDeals-image .image a{
+	height:146px
 }
