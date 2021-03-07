@@ -902,8 +902,8 @@ text-overflow: ellipsis;
 }
 /* Product Thumb */
 .product-thumb .image { text-align: center; }
-.product-thumb .image a { display: block; }
-.product-thumb .image a img { display:inline-block; }
+.product-thumb .image a { display: block; height:200px}
+.product-thumb .image a img { display:inline-block;max-width:100% }
 .product-thumb h4 a.product-info {
 	margin:0;
 	padding-bottom:0px;
@@ -2749,4 +2749,7 @@ ul.comments-secion li:first-child{border:none;padding-left:0px}
 .rows{margin-top:10px}
 .owl-theme .owl-controls{
 	margin-top:0px !important;
+}
+.fix-height{
+	height:304px;
 }
