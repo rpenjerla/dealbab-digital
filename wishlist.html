@@ -175,7 +175,8 @@
 	<!-- Breadcrumb Start-->
       <ul class="breadcrumb">
         <li><a href="index.html"><span>Home</a></li>
-        <li><strong>My Account</strong></a></li>  
+		 <li><a href="my-account.html"><span>My Account</a></li>
+        <li><strong>Wishlist</strong></a></li>  
       </ul>
       <!-- Breadcrumb End-->
   </div>
@@ -187,8 +188,8 @@
           <h3 class="subtitle">My Account</h3>
           <div class="list-group">
             <ul class="list-item">
-			<li><a href="#" class="selected">My Account</a></li>			
-			  <li><a href="wishlist.html">Wish List</a></li>
+			<li><a href="my-account.html" >My Account</a></li>			
+			  <li><a href="wishlist.html" class="selected">Wish List</a></li>
 			  <li><a href="change-password.html">Change Password</a></li>
 			   <li><a href="#">Reset User</a></li>			  
               <li><a href="#">Logout</a></li>          
@@ -199,63 +200,39 @@
 	  
         <!--Middle Part Start-->
         <div class="col-sm-9" id="content">
-          <h1 class="title">My Account</h1>
-          <p class="lead">Hello, <strong>Muhammad !</strong> </p>
+          <h1 class="title">Wishlist</h1>       
           <form>
           <div class="row">
             <div class="col-sm-12">
-            <fieldset id="personal-details">
-              <legend>Personal Details</legend>
-              <div class="col-sm-6 form-group required">
-                <label for="input-firstname" class="control-label">First Name</label>
-                  <input type="text" class="form-control" id="input-firstname" placeholder="First Name" value="" name="firstname">
-              </div>
-              <div class="col-sm-6 form-group required">
-                <label for="input-lastname" class="control-label">Last Name</label>
-                  <input type="text" class="form-control" id="input-lastname" placeholder="Last Name" value="" name="lastname">
-              </div>
-              <div class="col-sm-6 form-group required">
-                <label for="input-email" class="control-label">E-Mail</label>
-                  <input type="email" class="form-control" id="input-email" placeholder="E-Mail" value="" name="email">
-              </div>
-              <div class="col-sm-6 form-group required">
-                <label for="input-telephone" class="control-label">Telephone</label>
-                  <input type="tel" class="form-control" id="input-telephone" placeholder="Telephone" value="" name="telephone">
-              </div>
-              <div class="col-sm-6 form-group">
-                <label for="input-fax" class="control-label">Fax</label>
-                  <input type="text" class="form-control" id="input-fax" placeholder="Fax" value="" name="fax">
-              </div>
-            </fieldset><br>
+			<div class="headings">
+			<div class="text-center prodctImage col-sm-2">Image</div>
+			<div class="text-center prodctImage col-sm-3">Product Name</div>			
+			<div class="text-center prodctImage col-sm-2">Stock</div>
+			<div class="text-center prodctImage col-sm-2">Unit Price</div>
+			<div class="text-center prodctImage col-sm-3">Action</div>
+			</div>
+			<div class="clearfix visible-lg-block"></div>
+			<div class="row rows">
+			<div class="text-center prodctImage col-sm-2"><a href="product.html"><img src="image/product/samsung_tab_1-50x50.jpg" alt="Aspire Ultrabook Laptop" title="Aspire Ultrabook Laptop" /></a></div>
+			<div class="text-center prodctdec col-sm-3"><a href="product.html">iPod Classic</a></div>			
+			<div class="text-center prodctstock col-sm-2">In Stock</div>
+			<div class="text-center prodctprice col-sm-2"><div class="price">109.21 AED</div></div>
+			<div class="text-center prodctactions col-sm-3"><button class="btn btn-primary" title="" data-toggle="tooltip" onClick="cart.add('48');" type="button" data-original-title="Add to Cart"><i class="fa fa-shopping-cart"></i></button>
+            <a class="btn btn-danger" title="" data-toggle="tooltip" href="" data-original-title="Remove"><i class="fa fa-times"></i></a></div>
+			</div>
+			<div class="row rows">
+			<div class="text-center prodctImage col-sm-2"><a href="product.html"><img src="image/product/samsung_tab_1-50x50.jpg" alt="Aspire Ultrabook Laptop" title="Aspire Ultrabook Laptop" /></a></div>
+			<div class="text-center prodctdec col-sm-3"><a href="product.html">iPod Classic</a></div>			
+			<div class="text-center prodctstock col-sm-2">In Stock</div>
+			<div class="text-center prodctprice col-sm-2"><div class="price">109.21 AED</div></div>
+			<div class="text-center prodctactions col-sm-3"><button class="btn btn-primary" title="" data-toggle="tooltip" onClick="cart.add('48');" type="button" data-original-title="Add to Cart"><i class="fa fa-shopping-cart"></i></button>
+            <a class="btn btn-danger" title="" data-toggle="tooltip" href="" data-original-title="Remove"><i class="fa fa-times"></i></a></div>
+			</div>
+        
             </div>
-            <div class="col-sm-12">
-           <legend> FAQs</legend>
-		   <p>
-<strong>What happens when I update my email address (or mobile number)?</strong><br />
-Your login email id (or mobile number) changes, likewise. You'll receive all your account related communication on your updated email address (or mobile number).<br /><br />
-
-<strong>When will my Dealbab account be updated with the new email address (or mobile number)?</strong><br />
-It happens as soon as you confirm the verification code sent to your email (or mobile) and save the changes.<br /><br />
-
-<strong>What happens to my existing Dealbab account when I update my email address (or mobile number)?</strong><br />
-Updating your email address (or mobile number) doesn't invalidate your account. Your account remains fully functional. You'll continue seeing your Order history, saved information and personal details.<br /><br />
-
-<strong>Does my Seller account get affected when I update my email address?</strong><br />
-Dealbab has a 'single sign-on' policy. Any changes will reflect in your Seller account also.  
-</p>        
-            </div>
-            </div>
-           
-            
-            
-            
-            <div class="buttons">
-              <div class="pull-right">
-			    <input type="submit" class="btn btn-lg btn-disabled" value="Edit" />
-                <input type="submit" class="btn btn-lg btn-primary" value="Save Changes" />
-				
-              </div>
-            </div>
+         
+            </div>           
+     
           </form>
         </div>
         <!--Middle Part End -->

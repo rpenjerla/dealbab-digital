@@ -20,14 +20,29 @@ width:152px;
 }
 }
  @media only screen and (min-width:992px) {
-
+	 .location{
+	background: transparent url(../image/brandlogos/location.jpg) 0px 0px no-repeat;
+	padding:40px 0px;
+	height: 304px;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+	 
+#contentBanner img{
+	height:304px;
+}
 /**===== footer =====**/
 #footer ul, .left-top {
 display:block!important;
 }
 }
  @media (max-width: 991px) {
-
+	 .location{
+	height: 63px;	
+}
+.headings{display:none}
 	 
 body {
 -webkit-text-size-adjust: auto;

@@ -115,7 +115,7 @@ h1{
 /*===================================================================================*/
 ul.brand-logos {margin:0px;padding:20px}
 ul.brand-logos li{float:left;list-style-type:none;}
-ul.brand-logos li a{padding:18px 0px 18px 0px;display:inline-block}
+ul.brand-logos li a{padding:21px 0px 21px 0px;display:inline-block}
 ul.brand-logos li a span{width:50px;display:inline-block;overflow: hidden;
     text-overflow: ellipsis;white-space:nowrap}
 ul.brand-logos li img{width:70px;}
@@ -139,7 +139,7 @@ ul.brand-logos li img{width:70px;}
 .location{
 	background: transparent url(../image/brandlogos/location.jpg) 0px 0px no-repeat;
 	padding:40px 0px;
-	height: 280px;
+	
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -850,7 +850,7 @@ ul.brand-logos li img{width:70px;}
 }
 .product-list.row, .products-category.row { margin:0; }
 /* Carousel */
-.owl-carousel { margin-bottom:20px; }
+.owl-carousel { margin-bottom:0px; }
 .owl-carousel .product-thumb .image { 
 	margin-bottom: 5px;
     float: none;
@@ -2740,4 +2740,13 @@ ul.comments-secion li:first-child{border:none;padding-left:0px}
 }
 .my-account{
 	padding-top:9px !important
+}
+.dropdown-menu>li>a{
+	padding:10px 20px;
+}
+.selected{font-weight:bold}
+.headings div{padding:7px;background:#e4effa;font-weight:bold}
+.rows{margin-top:10px}
+.owl-theme .owl-controls{
+	margin-top:0px !important;
 }
