@@ -442,7 +442,15 @@ $(function(){
         c++;
         $this.data('count',c);
         $('#'+this.id+'-bs3').html(c);
-    });    
-          
+    });  
+ /*---------------------------------------------------
+   Forgot Password
+----------------------------------------------------- */
+    $('#sendCode').click(function(e){
+        $('#forgotPassword').hide();
+        $('#verifyCode').show();  
+        e.preventDefault();
+        // Or with: return false;        
+    });
 
 })(jQuery);

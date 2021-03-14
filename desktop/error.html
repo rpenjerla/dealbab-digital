@@ -59,28 +59,14 @@
 		   
 			<!-- Login Start -->
 			<div class="flex-div">
-			       <ul class="dispblock my-account">
-				<li class="dropdown" id="my_account"><a href="my-account.html">My Account <i class="fa fa-caret-down"></i></a>
-				  <ul class="dropdown-menu dropdown-menu-right">
-					<li><a href="my-account.html">My Account</a></li>			
-					<li><a href="change-password.html">Change Password</a></li>
-					<li><a href="forgotPassword.html">Forgot Password</a></li>
-					<li><a href="wishlist.html">Wishlist</a></li>					
-					<li><a href="#">Logout</a></li>
-				  </ul>
-				</li>				  
-				</ul>
-                <div class="dispnone">				
-					<a class="header-link" data-toggle="modal" href="javascript:void(0)" onclick="openLoginModal();">Log in</a> /
-					<a class="header-link" data-toggle="modal" href="javascript:void(0)" onclick="openRegisterModal();">Sign Up</a>
-				</div>
+				<a class="header-link" data-toggle="modal" href="javascript:void(0)" onclick="openLoginModal();">Log in</a> /
+				<a class="header-link" data-toggle="modal" href="javascript:void(0)" onclick="openRegisterModal();">Sign Up</a>
 			</div>
            <!-- Login End -->
           <!-- Favourite Icon Start-->	
            <div class="flex-div">		   
             <div id="cart">
-             <button type="button" data-toggle="tooltip"  class="heading dropdown-toggle" onClick="">
-				 <i class="fa fa-heart"></i></button>			  
+             <button type="button" data-toggle="tooltip"  class="heading dropdown-toggle" onClick=""><i class="fa fa-heart"></i></button>			  
             </div>
 		   </div>	
 			<!-- Favourite Icon End-->
@@ -96,171 +82,100 @@
     <div class="container">     
         <div class="navbar-header"> <span class="visible-xs visible-sm"> Menu <b></b></span></div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav">         
-            <li class="mega-menu dropdown"><a>All Categories</a>
-                <div class="dropdown-menu">
-                  <div class="column col-lg-12 col-md-12">                    
-                    <a class="icon-set" href="#">
-                      <div class="row navHeading">			   
-                        <div class="pull-left">
-                        <h1>Home Decor</h1>
-                        <span>Create & live your unique style</span>								
-                       </div> 
-                        <div class="items pull-right">
-                       25478 items
-                       </div> 
-                        <span class="clearfix visible-lg-block"></span>
-                       </div>                    
-                    </a>
-                    <div class="col-lg-4 col-xs-12">
-                      <ul>
-                        <li><a href="plp.html">Pots &amp; Pans</a>        </li>
-                        <li><a href="plp.html">Pressure Cookers</a> </li>
-                        <li><a href="plp.html">Kitchen Tools</a>       </li>
-                        <li><a href="plp.html">Gas Stoves</a></li>
-                        <li><a href="plp.html">Dinning &amp; Serving</a></li>
-                        <li><a href="plp.html">Cofee Mugs</a>           </li>
-                        <li><a href="plp.html">Dinner ware &amp; Crockery</a>   </li>
-                        <li><a href="plp.html">Bar &amp; Glassware</a>       </li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-4 col-xs-12">
-                      <ul>
-                        <li> <a href="plp.html">Kitchen Storage</a>       </li>
-                        <li> <a href="plp.html">Lunch Boxes </a>        </li>
-                        <li> <a href="plp.html">Flasks &amp; Casseroles </a>         </li>
-                        <li> <a href="plp.html">Kitchen Contaiers </a>      </li>
-                        <li> <a href="plp.html">Furiture </a>       </li>
-                        <li> <a href="plp.html">Beds </a>    </li>
-                        <li> <a href="plp.html">Sofas </a>    </li>
-                        <li><a href="plp.html">Dinning Table &amp; Sets</a>  </li>
-                     
-                     
-                      </ul>
-                    </div>
-                    <div class="col-lg-4 col-xs-12">
-                      <ul>
-                        <li> <a href="plp.html">Mattresses</a>       </li>
-                          <li> <a href="plp.html">Tables</a>        </li>
-                          <li> <a href="plp.html">Chairs</a>         </li>
-                          <li> <a href="plp.html">Bean Bags </a>      </li>
-                          <li> <a href="plp.html">Shoe Racks </a>       </li>
-                          <li> <a href="plp.html">TV Units  &amp; Cabinets </a>    </li>
-                          <li> <a href="plp.html">Wardrobes </a>    </li>
-                         
-                        </ul>
-                    </div>
-                    <div class="clearfix visible-lg-block visible-md-block"></div>
-                 </div>               
-                </div>
-              </li>
-            <li class="menu_brands dropdown"><a href="hotdeals.html">Hot Deals</a>             
-            </li>
-            <li class="custom-link"><a href="storedeals.html">Store Deals</a></li>
-            <li class="dropdown wrap_custom_block hidden-sm hidden-xs"><a>Coupons</a>
-              
-            </li>
-            <li class="dropdown"><a href="blog.html">Forum</a>
-           
-            </li>
-           
-          
-            
-          </ul>
-        </div>     
+			<ul class="nav navbar-nav">         
+			  <li class="mega-menu dropdown"><a>All Categories</a>
+				  <div class="dropdown-menu">
+					<div class="column col-lg-12 col-md-12">                    
+					  <a class="icon-set" href="#">
+						<div class="row navHeading">			   
+						  <div class="pull-left">
+						  <h1>Home Decor</h1>
+						  <span>Create & live your unique style</span>								
+						 </div> 
+						  <div class="items pull-right">
+						 25478 items
+						 </div> 
+						  <span class="clearfix visible-lg-block"></span>
+						 </div>                    
+					  </a>
+					  <div class="col-lg-4 col-xs-12">
+						<ul>
+						  <li><a href="plp.html">Pots &amp; Pans</a>        </li>
+						  <li><a href="plp.html">Pressure Cookers</a> </li>
+						  <li><a href="plp.html">Kitchen Tools</a>       </li>
+						  <li><a href="plp.html">Gas Stoves</a></li>
+						  <li><a href="plp.html">Dinning &amp; Serving</a></li>
+						  <li><a href="plp.html">Cofee Mugs</a>           </li>
+						  <li><a href="plp.html">Dinner ware &amp; Crockery</a>   </li>
+						  <li><a href="plp.html">Bar &amp; Glassware</a>       </li>
+						</ul>
+					  </div>
+					  <div class="col-lg-4 col-xs-12">
+						<ul>
+						  <li> <a href="plp.html">Kitchen Storage</a>       </li>
+						  <li> <a href="plp.html">Lunch Boxes </a>        </li>
+						  <li> <a href="plp.html">Flasks &amp; Casseroles </a>         </li>
+						  <li> <a href="plp.html">Kitchen Contaiers </a>      </li>
+						  <li> <a href="plp.html">Furiture </a>       </li>
+						  <li> <a href="plp.html">Beds </a>    </li>
+						  <li> <a href="plp.html">Sofas </a>    </li>
+						  <li><a href="plp.html">Dinning Table &amp; Sets</a>  </li>
+					   
+					   
+						</ul>
+					  </div>
+					  <div class="col-lg-4 col-xs-12">
+						<ul>
+						  <li> <a href="plp.html">Mattresses</a>       </li>
+							<li> <a href="plp.html">Tables</a>        </li>
+							<li> <a href="plp.html">Chairs</a>         </li>
+							<li> <a href="plp.html">Bean Bags </a>      </li>
+							<li> <a href="plp.html">Shoe Racks </a>       </li>
+							<li> <a href="plp.html">TV Units  &amp; Cabinets </a>    </li>
+							<li> <a href="plp.html">Wardrobes </a>    </li>
+						   
+						  </ul>
+					  </div>
+					  <div class="clearfix visible-lg-block visible-md-block"></div>
+				   </div>               
+				  </div>
+				</li>
+			  <li class="menu_brands dropdown"><a href="hotdeals.html">Hot Deals</a>             
+			  </li>
+			  <li class="custom-link"><a href="storedeals.html">Store Deals</a></li>
+			  <li class="dropdown wrap_custom_block hidden-sm hidden-xs"><a>Coupons</a>
+				
+			  </li>
+			  <li class="dropdown"><a href="blog.html">Forum</a>
+			 
+			  </li>
+			 
+			
+			  
+			</ul>
+		  </div>      
     </div>
 	</nav>
     <!-- Main Menu End-->
 	
-	<!-- Breadcrumb Start-->
-      <ul class="breadcrumb">
-        <li><a href="index.html"><span>Home</a></li>
-        <li><strong>My Account</strong></a></li>  
-      </ul>
-      <!-- Breadcrumb End-->
+
   </div>
   <div id="container">
-    <div class="container">  
+    <div class="container">	
       <div class="row">
-	  <!--Right Part Start -->
-        <aside id="column-right" class="col-sm-3 hidden-xs">
-          <h3 class="subtitle">My Account</h3>
-          <div class="list-group">
-            <ul class="list-item">
-			<li><a href="#" class="selected">My Account</a></li>			
-			  <li><a href="wishlist.html">Wish List</a></li>
-			  <li><a href="change-password.html">Change Password</a></li>
-        <li><a href="forgotPassword.html">Forgot Password</a></li>		  
-              <li><a href="#">Logout</a></li>          
-             </ul>
-          </div>
-        </aside>
-        <!--Right Part End -->
-	  
-        <!--Middle Part Start-->
-        <div class="col-sm-9" id="content">
-          <h1 class="title">My Account</h1>
-          <p class="lead">Hello, <strong>Muhammad !</strong> </p>
-          <form>
-          <div class="row">
-            <div class="col-sm-12">
-            <fieldset id="personal-details">
-              <legend>Personal Details</legend>
-              <div class="col-sm-6 form-group required">
-                <label for="input-firstname" class="control-label">First Name</label>
-                  <input type="text" class="form-control" id="input-firstname" placeholder="First Name" value="" name="firstname">
-              </div>
-              <div class="col-sm-6 form-group required">
-                <label for="input-lastname" class="control-label">Last Name</label>
-                  <input type="text" class="form-control" id="input-lastname" placeholder="Last Name" value="" name="lastname">
-              </div>
-              <div class="col-sm-6 form-group required">
-                <label for="input-email" class="control-label">E-Mail</label>
-                  <input type="email" class="form-control" id="input-email" placeholder="E-Mail" value="" name="email">
-              </div>
-              <div class="col-sm-6 form-group required">
-                <label for="input-telephone" class="control-label">Mobile</label>
-                  <input type="tel" class="form-control" id="input-telephone" placeholder="Telephone" value="" name="telephone">
-              </div>
-           
-            </fieldset><br>
-            </div>
-            <div class="col-sm-12">
-           <legend> FAQs</legend>
-		   <p>
-<strong>What happens when I update my email address (or mobile number)?</strong><br />
-Your login email id (or mobile number) changes, likewise. You'll receive all your account related communication on your updated email address (or mobile number).<br /><br />
-
-<strong>When will my Dealbab account be updated with the new email address (or mobile number)?</strong><br />
-It happens as soon as you confirm the verification code sent to your email (or mobile) and save the changes.<br /><br />
-
-<strong>What happens to my existing Dealbab account when I update my email address (or mobile number)?</strong><br />
-Updating your email address (or mobile number) doesn't invalidate your account. Your account remains fully functional. You'll continue seeing your Order history, saved information and personal details.<br /><br />
-
-<strong>Does my Seller account get affected when I update my email address?</strong><br />
-Dealbab has a 'single sign-on' policy. Any changes will reflect in your Seller account also.  
-</p>        
-            </div>
-            </div>
-           
+       <!--Middle Part Start-->
+        <div id="content" class="col-sm-12">
+            <div class="text-center">
+            <img class="activation-image" src="image/error.svg" />
             
-            
-            
-            <div class="buttons">
-              <div class="pull-right">
-			    <input type="submit" class="btn btn-lg btn-disabled" value="Edit" />
-                <input type="submit" class="btn btn-lg btn-primary" value="Save Changes" />
-				
-              </div>
-            </div>
-          </form>
+           <h3> 404 Error <br />Your Session is Expired/ Unfortunately you are not registered.</h3>
+           <h4> Please <a href="login.html" class="btn-link" > Sign Up </a></h4>
         </div>
-        <!--Middle Part End -->
-        
+        </div>
+        <!--Middle Part End-->
       </div>
     </div>
   </div>
-  <!--Footer Start-->
   <!--Footer Start-->
   <footer id="footer">
     <div class="fpart-first">
@@ -271,7 +186,7 @@ Dealbab has a 'single sign-on' policy. Any changes will reflect in your Seller a
             <ul>
               <li ><i class="fa fa-chevron-right"></i><a href="#">Main</a></li>
               <li><i class="fa fa-chevron-right"></i><a href="#">About Kanbkam </a></li>
-              <li><i class="fa fa-chevron-right"></i> <a href="privacy.html">Privacy</a></li>
+          <li><i class="fa fa-chevron-right"></i> <a href="privacy.html">Privacy</a></li>
 			  <li ><i class="fa fa-chevron-right"></i> <a href="termsofuse.html">Terms & Conditions</a></li>
             </ul>
 		
@@ -282,7 +197,7 @@ Dealbab has a 'single sign-on' policy. Any changes will reflect in your Seller a
             <ul>
              <li ><i class="fa fa-chevron-right"></i><a href="#">Hours</a></li>
               <li><i class="fa fa-chevron-right"></i><a href="#">Mobile Phones </a></li>
-              <li><i class="fa fa-chevron-right"></i> <a href="pdp.html">Laptop</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="#">Laptop</a></li>
 			  <li ><i class="fa fa-chevron-right"></i> <a href="#">Televisions</a></li>
 			  <li ><i class="fa fa-chevron-right"></i> <a href="#">Perfumes</a></li>
 			  <li ><i class="fa fa-chevron-right"></i> <a href="#">Applications</a></li>
@@ -383,6 +298,94 @@ Dealbab has a 'single sign-on' policy. Any changes will reflect in your Seller a
 <script type="text/javascript" src="js/jquery.dcjqaccordion.min.js"></script>
 <script type="text/javascript" src="js/owl.carousel.min.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/login-register.js"></script>
 <!-- JS Part End-->
+
+<script type = "text/javascript">
+
+	function Redirect() {
+	   window.location = "my-account.html";
+	}
+ 
+</script>
+<div class="modal fade login" id="loginModal">
+	<div class="modal-dialog login animated">
+		<div class="modal-content">
+		   <div class="modal-header">			   
+			  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>			 
+			  <img alt="dealbab" src="image/logo.jpg" />
+			  <h2 class="modal-title">Login</h2>
+		  </div>
+		  <div class="modal-body">
+			  <div class="box">
+				   <div class="content">
+					  <div class="social disp-none">
+						  <a class="circle github" href="#">
+							  <i class="fa fa-github fa-fw"></i>
+						  </a>
+						  <a id="google_login" class="circle google" href="#">
+							  <i class="fa fa-google-plus fa-fw"></i>
+						  </a>
+						  <a id="facebook_login" class="circle facebook" href="#">
+							  <i class="fa fa-facebook fa-fw"></i>
+						  </a>
+					  </div>
+					  <div class="division disp-none">
+						  <div class="line l"></div>
+							<span>or</span>
+						  <div class="line r"></div>
+					  </div>
+					  <div class="error"></div>
+					  <div class="form loginBox">
+						  <form method="" action="" accept-charset="UTF-8">
+						  <input id="email" class="form-control" type="text" placeholder="Username / Email Address" name="email">
+						  <input id="password" class="form-control" type="password" placeholder="Password" name="password">
+						  <div class="row forgot-password">
+							  <div class="col-sm-6 col-xs-12"><input type="checkbox" /> Keep me Logged in</div>
+							  <div class="col-sm-6 col-xs-12"><a href="javascript: showforgotForm();" class="pull-right">Forgot Password ?</a></div>
+						  </div>
+						  <input class="btn btn-default btn-login" type="button" value="Login" onclick="Redirect()">
+						  </form>
+					  </div>            
+				   </div>
+			  </div>
+			  <div class="box">
+				  <div class="content registerBox" style="display:none;">
+				   <div class="form">
+					  <form method="" html="{:multipart=>true}" data-remote="true" action="" accept-charset="UTF-8">
+					    <input id="email" class="form-control" type="password" placeholder="Email Address" name="password">
+					  <input id="password" class="form-control" type="password" placeholder="Password" name="password_confirmation">
+					  <input id="password_confirmation" class="form-control" type="password" placeholder="Confirm Password" name="password_confirmation">
+					  <input class="btn btn-default btn-register" type="button" value="Sign Up" name="commit">
+					  </form>
+					  </div>
+				  </div>
+			  </div>
+			  <div class="box">
+				<div class="content forgotBox" style="display:none;">
+				 <div class="form">
+					  <p>Don't worry ! Just fill in your email and we'll send you a link to reset your password.</p>
+					<form method="" html="{:multipart=>true}" data-remote="true" action="" accept-charset="UTF-8">
+					<input id="email" class="form-control" type="text" placeholder="EMail Address" name="email">					
+					<input class="btn btn-default btn-login" type="button" value="Reset Password" name="commit">
+					</form>
+					</div>
+				</div>
+			</div>
+		  </div>
+		  <div class="modal-footer">
+			  <div class="forgot login-footer">
+				  <span>Not have an account ?
+					   <a class="btn-link" href="javascript: showRegisterForm();">Sign Up</a>
+				  </span>
+			  </div>
+			  <div class="forgot register-footer" style="display:none">
+				   <span>Already a member ?</span>
+				   <a href="javascript: showLoginForm();">Login</a>
+			  </div>
+		  </div>
+		</div>
+	</div>
+</div>
 </body>
 </html>

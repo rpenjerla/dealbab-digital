@@ -58,29 +58,15 @@
 		  
 		   
 			<!-- Login Start -->
-			<div class="flex-div">
-			       <ul class="dispblock my-account">
-				<li class="dropdown" id="my_account"><a href="my-account.html">My Account <i class="fa fa-caret-down"></i></a>
-				  <ul class="dropdown-menu dropdown-menu-right">
-					<li><a href="my-account.html">My Account</a></li>			
-					<li><a href="change-password.html">Change Password</a></li>
-					<li><a href="forgotPassword.html">Forgot Password</a></li>
-					<li><a href="wishlist.html">Wishlist</a></li>					
-					<li><a href="#">Logout</a></li>
-				  </ul>
-				</li>				  
-				</ul>
-          <div class="dispnone">				
-					<a class="header-link" data-toggle="modal" href="javascript:void(0)" onclick="openLoginModal();">Log in</a> /
-					<a class="header-link" data-toggle="modal" href="javascript:void(0)" onclick="openRegisterModal();">Sign Up</a>
-				</div>
+      <div class="flex-div">
+				<a class="header-link" data-toggle="modal" href="javascript:void(0)" onclick="openLoginModal();">Log in</a> /
+				<a class="header-link" data-toggle="modal" href="javascript:void(0)" onclick="openRegisterModal();">Sign Up</a>
 			</div>
            <!-- Login End -->
           <!-- Favourite Icon Start-->	
            <div class="flex-div">		   
             <div id="cart">
-             <button type="button" data-toggle="tooltip"  class="heading dropdown-toggle" onClick="">
-				 <i class="fa fa-heart"></i></button>			  
+             <button type="button" data-toggle="tooltip"  class="heading dropdown-toggle" onClick=""><i class="fa fa-heart"></i></button>			  
             </div>
 		   </div>	
 			<!-- Favourite Icon End-->
@@ -96,152 +82,349 @@
     <div class="container">     
         <div class="navbar-header"> <span class="visible-xs visible-sm"> Menu <b></b></span></div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav">         
-            <li class="mega-menu dropdown"><a>All Categories</a>
-                <div class="dropdown-menu">
-                  <div class="column col-lg-12 col-md-12">                    
-                    <a class="icon-set" href="#">
-                      <div class="row navHeading">			   
-                        <div class="pull-left">
-                        <h1>Home Decor</h1>
-                        <span>Create & live your unique style</span>								
-                       </div> 
-                        <div class="items pull-right">
-                       25478 items
-                       </div> 
-                        <span class="clearfix visible-lg-block"></span>
-                       </div>                    
-                    </a>
-                    <div class="col-lg-4 col-xs-12">
-                      <ul>
-                        <li><a href="plp.html">Pots &amp; Pans</a>        </li>
-                        <li><a href="plp.html">Pressure Cookers</a> </li>
-                        <li><a href="plp.html">Kitchen Tools</a>       </li>
-                        <li><a href="plp.html">Gas Stoves</a></li>
-                        <li><a href="plp.html">Dinning &amp; Serving</a></li>
-                        <li><a href="plp.html">Cofee Mugs</a>           </li>
-                        <li><a href="plp.html">Dinner ware &amp; Crockery</a>   </li>
-                        <li><a href="plp.html">Bar &amp; Glassware</a>       </li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-4 col-xs-12">
-                      <ul>
-                        <li> <a href="plp.html">Kitchen Storage</a>       </li>
-                        <li> <a href="plp.html">Lunch Boxes </a>        </li>
-                        <li> <a href="plp.html">Flasks &amp; Casseroles </a>         </li>
-                        <li> <a href="plp.html">Kitchen Contaiers </a>      </li>
-                        <li> <a href="plp.html">Furiture </a>       </li>
-                        <li> <a href="plp.html">Beds </a>    </li>
-                        <li> <a href="plp.html">Sofas </a>    </li>
-                        <li><a href="plp.html">Dinning Table &amp; Sets</a>  </li>
-                     
-                     
-                      </ul>
-                    </div>
-                    <div class="col-lg-4 col-xs-12">
-                      <ul>
-                        <li> <a href="plp.html">Mattresses</a>       </li>
-                          <li> <a href="plp.html">Tables</a>        </li>
-                          <li> <a href="plp.html">Chairs</a>         </li>
-                          <li> <a href="plp.html">Bean Bags </a>      </li>
-                          <li> <a href="plp.html">Shoe Racks </a>       </li>
-                          <li> <a href="plp.html">TV Units  &amp; Cabinets </a>    </li>
-                          <li> <a href="plp.html">Wardrobes </a>    </li>
-                         
-                        </ul>
-                    </div>
-                    <div class="clearfix visible-lg-block visible-md-block"></div>
-                 </div>               
-                </div>
-              </li>
-            <li class="menu_brands dropdown"><a href="hotdeals.html">Hot Deals</a>             
-            </li>
-            <li class="custom-link"><a href="storedeals.html">Store Deals</a></li>
-            <li class="dropdown wrap_custom_block hidden-sm hidden-xs"><a>Coupons</a>
-              
-            </li>
-            <li class="dropdown"><a href="blog.html">Forum</a>
-           
-            </li>
-           
-          
-            
-          </ul>
-        </div>      
+			<ul class="nav navbar-nav">         
+			  <li class="mega-menu dropdown"><a>All Categories</a>
+				  <div class="dropdown-menu">
+					<div class="column col-lg-12 col-md-12">                    
+					  <a class="icon-set" href="#">
+						<div class="row navHeading">			   
+						  <div class="pull-left">
+						  <h1>Home Decor</h1>
+						  <span>Create & live your unique style</span>								
+						 </div> 
+						  <div class="items pull-right">
+						 25478 items
+						 </div> 
+						  <span class="clearfix visible-lg-block"></span>
+						 </div>                    
+					  </a>
+					  <div class="col-lg-4 col-xs-12">
+						<ul>
+						  <li><a href="plp.html">Pots &amp; Pans</a>        </li>
+						  <li><a href="plp.html">Pressure Cookers</a> </li>
+						  <li><a href="plp.html">Kitchen Tools</a>       </li>
+						  <li><a href="plp.html">Gas Stoves</a></li>
+						  <li><a href="plp.html">Dinning &amp; Serving</a></li>
+						  <li><a href="plp.html">Cofee Mugs</a>           </li>
+						  <li><a href="plp.html">Dinner ware &amp; Crockery</a>   </li>
+						  <li><a href="plp.html">Bar &amp; Glassware</a>       </li>
+						</ul>
+					  </div>
+					  <div class="col-lg-4 col-xs-12">
+						<ul>
+						  <li> <a href="plp.html">Kitchen Storage</a>       </li>
+						  <li> <a href="plp.html">Lunch Boxes </a>        </li>
+						  <li> <a href="plp.html">Flasks &amp; Casseroles </a>         </li>
+						  <li> <a href="plp.html">Kitchen Contaiers </a>      </li>
+						  <li> <a href="plp.html">Furiture </a>       </li>
+						  <li> <a href="plp.html">Beds </a>    </li>
+						  <li> <a href="plp.html">Sofas </a>    </li>
+						  <li><a href="plp.html">Dinning Table &amp; Sets</a>  </li>
+					   
+					   
+						</ul>
+					  </div>
+					  <div class="col-lg-4 col-xs-12">
+						<ul>
+						  <li> <a href="plp.html">Mattresses</a>       </li>
+							<li> <a href="plp.html">Tables</a>        </li>
+							<li> <a href="plp.html">Chairs</a>         </li>
+							<li> <a href="plp.html">Bean Bags </a>      </li>
+							<li> <a href="plp.html">Shoe Racks </a>       </li>
+							<li> <a href="plp.html">TV Units  &amp; Cabinets </a>    </li>
+							<li> <a href="plp.html">Wardrobes </a>    </li>
+						   
+						  </ul>
+					  </div>
+					  <div class="clearfix visible-lg-block visible-md-block"></div>
+				   </div>               
+				  </div>
+				</li>
+			  <li class="menu_brands dropdown"><a href="hotdeals.html">Hot Deals</a>             
+			  </li>
+			  <li class="custom-link"><a href="storedeals.html">Store Deals</a></li>
+			  <li class="dropdown wrap_custom_block hidden-sm hidden-xs"><a>Coupons</a>
+				
+			  </li>
+			  <li class="dropdown"><a href="blog.html">Forum</a>
+			 
+			  </li>
+			 
+			
+			  
+			</ul>
+		  </div>     
     </div>
 	</nav>
     <!-- Main Menu End-->
-	
 	<!-- Breadcrumb Start-->
       <ul class="breadcrumb">
         <li><a href="index.html"><span>Home</a></li>
-		 <li><a href="my-account.html"><span>My Account</a></li>
-        <li><strong>Change Password</strong></a></li>  
+        <li><strong>Store Deals</strong></a></li>  
       </ul>
       <!-- Breadcrumb End-->
   </div>
   <div id="container">
-    <div class="container">  
+    <div class="container">	
       <div class="row">
-	  <!--Right Part Start -->
-        <aside id="column-right" class="col-sm-3 hidden-xs">
-          <h3 class="subtitle">My Account</h3>
-          <div class="list-group">
-            <ul class="list-item">
-			<li><a href="my-account.html" >My Account</a></li>			
-			  <li><a href="wishlist.html" >Wish List</a></li>
-			  <li><a href="change-password.html" class="selected">Change Password</a></li>
-			   <li><a href="forgotPassword.html">Forgot Password</a></li>			  
-              <li><a href="#">Logout</a></li>          
-             </ul>
-          </div>
-        </aside>
-        <!--Right Part End -->
-	  
-        <!--Middle Part Start-->
-        <div class="col-sm-9" id="content">
-          <h1 class="title">Change Password</h1>       
-          <form>
-          <div class="row">
-            <div class="col-sm-12">
+       <!--Middle Part Start-->
+        <div id="content" class="col-sm-12">
+		  <!-- Hot Deals Product Start-->
+		<div class="row bodyColor">   <br />  		
+          <h3 class="subtitle">Store Deals</h3>	  
+		 	  
+           <div class="row products-category">
+			<div class=" storeDeals-image col-xs-6 col-md-2">
+				<div class="image">
+				<a href="#">
+				<img src="image/brandlogos/deals.jpg" alt="Hair Care Cream for Men" title="Hair Care Cream for Men" class="img-responsive" />
+				</a>
+				</div>
+				<div class="caption">
+				 <a href="product.html">Hair Care Products <br />
+			  Friday 2020</a>
+				</div>
 			
-			  <fieldset>             
-              <div class="form-group required col-sm-6">
-                <label for="input-password" class="control-label">Old Password</label>
-                  <input type="password" class="form-control" id="input-password" placeholder="Old Password" value="" name="old-password">
-              </div>
-              <div class="form-group required col-sm-6">
-                <label for="input-password" class="control-label">New Password</label>
-                  <input type="password" class="form-control" id="input-password" placeholder="New Password" value="" name="new-password">
-              </div>
-              <div class="form-group required col-sm-6">
-                <label for="input-confirm" class="control-label">New Password Confirm</label>
-                  <input type="password" class="form-control" id="input-confirm" placeholder="New Password Confirm" value="" name="new-confirm">
-              </div>
-			   <div class="form-group required col-sm-6">
-			   </div>
-			  
-			   <div class="col-sm-12">
-              <div class="pull-left">
-			  
-                <input type="submit" class="btn btn-lg btn-primary" value="Change" />
-				
-              </div>
+			  </div>
+			  <div class=" storeDeals-image col-xs-6 col-md-2">
+				<div class="image">
+				<a href="#">
+				<img src="image/brandlogos/deals.jpg" alt="Hair Care Cream for Men" title="Hair Care Cream for Men" class="img-responsive" />
+				</a>
+				</div>
+				<div class="caption">
+				 <a href="product.html">Hair Care Products <br />
+			  Friday 2020</a>
+				</div>
+			
+			  </div>
+			
+			  <div class=" storeDeals-image col-xs-6 col-md-2">
+				<div class="image">
+				<a href="#">
+				<img src="image/brandlogos/deals.jpg" alt="Hair Care Cream for Men" title="Hair Care Cream for Men" class="img-responsive" />
+				</a>
+				</div>
+				<div class="caption">
+				 <a href="product.html">Hair Care Products <br />
+			  Friday 2020</a>
+				</div>
+			
+			  </div>
+			  <div class=" storeDeals-image col-xs-6 col-md-2">
+				<div class="image">
+				<a href="#">
+				<img src="image/brandlogos/deals.jpg" alt="Hair Care Cream for Men" title="Hair Care Cream for Men" class="img-responsive" />
+				</a>
+				</div>
+				<div class="caption">
+				 <a href="product.html">Hair Care Products <br />
+			  Friday 2020</a>
+				</div>
+			
+			  </div>
+			  <div class=" storeDeals-image col-xs-6 col-md-2">
+				<div class="image">
+				<a href="#">
+				<img src="image/brandlogos/deals.jpg" alt="Hair Care Cream for Men" title="Hair Care Cream for Men" class="img-responsive" />
+				</a>
+				</div>
+				<div class="caption">
+				 <a href="product.html">Hair Care Products <br />
+			  Friday 2020</a>
+				</div>
+			
+			  </div>
+			  <div class=" storeDeals-image col-xs-6 col-md-2">
+				<div class="image">
+				<a href="#">
+				<img src="image/brandlogos/deals.jpg" alt="Hair Care Cream for Men" title="Hair Care Cream for Men" class="img-responsive" />
+				</a>
+				</div>
+				<div class="caption">
+				 <a href="product.html">Hair Care Products <br />
+			  Friday 2020</a>
+				</div>
+			
+			  </div>
+			
+			
+		
+          </div> 
+		  <div class="row products-category">
+			<div class=" storeDeals-image col-xs-6 col-md-2">
+				<div class="image">
+				<a href="#">
+				<img src="image/brandlogos/deals.jpg" alt="Hair Care Cream for Men" title="Hair Care Cream for Men" class="img-responsive" />
+				</a>
+				</div>
+				<div class="caption">
+				 <a href="product.html">Hair Care Products <br />
+			  Friday 2020</a>
+				</div>
+			
+			  </div>
+			  <div class=" storeDeals-image col-xs-6 col-md-2">
+				<div class="image">
+				<a href="#">
+				<img src="image/brandlogos/deals.jpg" alt="Hair Care Cream for Men" title="Hair Care Cream for Men" class="img-responsive" />
+				</a>
+				</div>
+				<div class="caption">
+				 <a href="product.html">Hair Care Products <br />
+			  Friday 2020</a>
+				</div>
+			
+			  </div>
+			
+			  <div class=" storeDeals-image col-xs-6 col-md-2">
+				<div class="image">
+				<a href="#">
+				<img src="image/brandlogos/deals.jpg" alt="Hair Care Cream for Men" title="Hair Care Cream for Men" class="img-responsive" />
+				</a>
+				</div>
+				<div class="caption">
+				 <a href="product.html">Hair Care Products <br />
+			  Friday 2020</a>
+				</div>
+			
+			  </div>
+			  <div class=" storeDeals-image col-xs-6 col-md-2">
+				<div class="image">
+				<a href="#">
+				<img src="image/brandlogos/deals.jpg" alt="Hair Care Cream for Men" title="Hair Care Cream for Men" class="img-responsive" />
+				</a>
+				</div>
+				<div class="caption">
+				 <a href="product.html">Hair Care Products <br />
+			  Friday 2020</a>
+				</div>
+			
+			  </div>
+			  <div class=" storeDeals-image col-xs-6 col-md-2">
+				<div class="image">
+				<a href="#">
+				<img src="image/brandlogos/deals.jpg" alt="Hair Care Cream for Men" title="Hair Care Cream for Men" class="img-responsive" />
+				</a>
+				</div>
+				<div class="caption">
+				 <a href="product.html">Hair Care Products <br />
+			  Friday 2020</a>
+				</div>
+			
+			  </div>
+			  <div class=" storeDeals-image col-xs-6 col-md-2">
+				<div class="image">
+				<a href="#">
+				<img src="image/brandlogos/deals.jpg" alt="Hair Care Cream for Men" title="Hair Care Cream for Men" class="img-responsive" />
+				</a>
+				</div>
+				<div class="caption">
+				 <a href="product.html">Hair Care Products <br />
+			  Friday 2020</a>
+				</div>
+			
+			  </div>
+			
+			
+		
+          </div>
+		  <div class="row products-category">
+			<div class=" storeDeals-image col-xs-6 col-md-2">
+				<div class="image">
+				<a href="#">
+				<img src="image/brandlogos/deals.jpg" alt="Hair Care Cream for Men" title="Hair Care Cream for Men" class="img-responsive" />
+				</a>
+				</div>
+				<div class="caption">
+				 <a href="product.html">Hair Care Products <br />
+			  Friday 2020</a>
+				</div>
+			
+			  </div>
+			  <div class=" storeDeals-image col-xs-6 col-md-2">
+				<div class="image">
+				<a href="#">
+				<img src="image/brandlogos/deals.jpg" alt="Hair Care Cream for Men" title="Hair Care Cream for Men" class="img-responsive" />
+				</a>
+				</div>
+				<div class="caption">
+				 <a href="product.html">Hair Care Products <br />
+			  Friday 2020</a>
+				</div>
+			
+			  </div>
+			
+			  <div class=" storeDeals-image col-xs-6 col-md-2">
+				<div class="image">
+				<a href="#">
+				<img src="image/brandlogos/deals.jpg" alt="Hair Care Cream for Men" title="Hair Care Cream for Men" class="img-responsive" />
+				</a>
+				</div>
+				<div class="caption">
+				 <a href="product.html">Hair Care Products <br />
+			  Friday 2020</a>
+				</div>
+			
+			  </div>
+			  <div class=" storeDeals-image col-xs-6 col-md-2">
+				<div class="image">
+				<a href="#">
+				<img src="image/brandlogos/deals.jpg" alt="Hair Care Cream for Men" title="Hair Care Cream for Men" class="img-responsive" />
+				</a>
+				</div>
+				<div class="caption">
+				 <a href="product.html">Hair Care Products <br />
+			  Friday 2020</a>
+				</div>
+			
+			  </div>
+			  <div class=" storeDeals-image col-xs-6 col-md-2">
+				<div class="image">
+				<a href="#">
+				<img src="image/brandlogos/deals.jpg" alt="Hair Care Cream for Men" title="Hair Care Cream for Men" class="img-responsive" />
+				</a>
+				</div>
+				<div class="caption">
+				 <a href="product.html">Hair Care Products <br />
+			  Friday 2020</a>
+				</div>
+			
+			  </div>
+			  <div class=" storeDeals-image col-xs-6 col-md-2">
+				<div class="image">
+				<a href="#">
+				<img src="image/brandlogos/deals.jpg" alt="Hair Care Cream for Men" title="Hair Care Cream for Men" class="img-responsive" />
+				</a>
+				</div>
+				<div class="caption">
+				 <a href="product.html">Hair Care Products <br />
+			  Friday 2020</a>
+				</div>
+			
+			  </div>
+			
+			
+		
+          </div>
+		  <div class="row paginationDiv">
+            <div class="col-sm-6 text-left">
+              <ul class="pagination">
+                <li class="active"><span>1</span></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">&gt;</a></li>
+                <li><a href="#">&gt;|</a></li>
+              </ul>
             </div>
-            </fieldset>
-        
-            </div>
-         
-            </div>           
-     
-          </form>
+            <div class="col-sm-6 text-right">Showing 1 to 12 of 15 (2 Pages)</div>
+          </div>
+		  </div>
+		   <!-- Hot Deals Product End-->
         </div>
-        <!--Middle Part End -->
-        
+        <!--Middle Part End-->
       </div>
     </div>
   </div>
-  <!--Footer Start-->
   <!--Footer Start-->
   <footer id="footer">
     <div class="fpart-first">
@@ -252,7 +435,7 @@
             <ul>
               <li ><i class="fa fa-chevron-right"></i><a href="#">Main</a></li>
               <li><i class="fa fa-chevron-right"></i><a href="#">About Kanbkam </a></li>
-             <li><i class="fa fa-chevron-right"></i> <a href="privacy.html">Privacy</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="privacy.html">Privacy</a></li>
 			  <li ><i class="fa fa-chevron-right"></i> <a href="termsofuse.html">Terms & Conditions</a></li>
             </ul>
 		
@@ -263,7 +446,7 @@
             <ul>
              <li ><i class="fa fa-chevron-right"></i><a href="#">Hours</a></li>
               <li><i class="fa fa-chevron-right"></i><a href="#">Mobile Phones </a></li>
-              <li><i class="fa fa-chevron-right"></i> <a href="pdp.html">Laptop</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="#">Laptop</a></li>
 			  <li ><i class="fa fa-chevron-right"></i> <a href="#">Televisions</a></li>
 			  <li ><i class="fa fa-chevron-right"></i> <a href="#">Perfumes</a></li>
 			  <li ><i class="fa fa-chevron-right"></i> <a href="#">Applications</a></li>
@@ -364,12 +547,17 @@
 <script type="text/javascript" src="js/jquery.dcjqaccordion.min.js"></script>
 <script type="text/javascript" src="js/owl.carousel.min.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/login-register.js"></script>
 <!-- JS Part End-->
-</body>
-</html>
 
+<script type = "text/javascript">
 
-<div class="modal fade login" id="loginModal" style="display:none">
+	function Redirect() {
+	   window.location = "my-account.html";
+	}
+ 
+</script>
+<div class="modal fade login" id="loginModal">
 	<div class="modal-dialog login animated">
 		<div class="modal-content">
 		   <div class="modal-header">			   
@@ -414,8 +602,7 @@
 				  <div class="content registerBox" style="display:none;">
 				   <div class="form">
 					  <form method="" html="{:multipart=>true}" data-remote="true" action="" accept-charset="UTF-8">
-					  
-					  <input id="email" class="form-control" type="password" placeholder="Email Address" name="password">
+					    <input id="email" class="form-control" type="password" placeholder="Email Address" name="password">
 					  <input id="password" class="form-control" type="password" placeholder="Password" name="password_confirmation">
 					  <input id="password_confirmation" class="form-control" type="password" placeholder="Confirm Password" name="password_confirmation">
 					  <input class="btn btn-default btn-register" type="button" value="Sign Up" name="commit">
@@ -449,3 +636,6 @@
 		</div>
 	</div>
 </div>
+
+</body>
+</html>
