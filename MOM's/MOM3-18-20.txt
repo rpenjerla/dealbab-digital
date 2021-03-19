@@ -1,0 +1,20 @@
+UI Enhancements. 
+
+Related products tab to be removed.  - Done
+Hide Qty and Atdd to cart button and Wishlist. -- Done
+PLP headings to be rename to Hot deals. -- Done
+Write a review to be hidden. -- Done
+Wishlist icon to be disabled in Home and PDP Page and my account page. Done
+New Password Confirm to Confirm password. --Done
+Forgot Password to be moved to Login. --Done
+Hide Sort by in PLP's. -- Done
+Arabic is not to be shown at present.
+Location not be shown in web or Phase 1.
+
+My Admin Pages to designed.
+
+
+
+
+ 
+
