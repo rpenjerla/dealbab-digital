@@ -1050,6 +1050,7 @@ visibility:hidden;
     border-radius: 100% 100% 100% 100%;
     border: none;
 	padding: 3px 6px;
+	cursor: not-allowed;
 }
 .product-grid  .btnWishlist:hover{
 	background:#c4c4c4;

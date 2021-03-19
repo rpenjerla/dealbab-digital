@@ -10,7 +10,7 @@ function showRegisterForm(){
        
 }
 function showLoginForm(){
-    $('#loginModal .registerBox, .forgotBox').fadeOut('fast',function(){
+    $('#loginModal .registerBox, .forgotBox, .codeForm').fadeOut('fast',function(){
         $('.loginBox').fadeIn('fast');
         $('.register-footer').fadeOut('fast',function(){
             $('.login-footer').fadeIn('fast');    
@@ -31,6 +31,18 @@ function showforgotForm(){
     $('.error').removeClass('alert alert-danger').html('');
        
 }
+function showcodeForm(){
+    $('.loginBox, .forgotBox').fadeOut('fast',function(){
+        $('.codeForm').fadeIn('fast');
+        $('.login-footer').fadeOut('fast',function(){
+            $('.register-footer').fadeIn('fast');
+        });
+        $('.modal-title').html('Reset your Password');
+    }); 
+    $('.error').removeClass('alert alert-danger').html('');
+       
+}
+
 function openLoginModal(){
     showLoginForm();
     setTimeout(function(){
@@ -46,6 +58,12 @@ function openRegisterModal(){
 }
 function forgotpasswordModal(){
     showforgotForm();
+    setTimeout(function(){
+        $('#loginModal').modal('show');    
+    }, 230);    
+}
+function forgotcodeModal(){
+    showcodeForm();
     setTimeout(function(){
         $('#loginModal').modal('show');    
     }, 230);    

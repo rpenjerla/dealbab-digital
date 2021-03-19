@@ -1441,8 +1441,8 @@
               <li><i class="fa fa-chevron-right"></i><a href="#">About Kanbkam </a></li>
               <li><i class="fa fa-chevron-right"></i> <a href="privacy.html">Privacy</a></li>
 			  <li ><i class="fa fa-chevron-right"></i> <a href="termsofuse.html">Terms & Conditions</a></li>
-			  <li ><i class="fa fa-chevron-right"></i> <a href="activation.html">Activation</a></li>
-			  <li ><i class="fa fa-chevron-right"></i> <a href="erroractivation.html">Activation</a></li>
+			  <li ><i class="fa fa-chevron-right"></i> <a href="activation.html">Activation Page</a></li>
+			  <li ><i class="fa fa-chevron-right"></i> <a href="error.html">Error Page</a></li>
             </ul>
 		
 			
@@ -1613,9 +1613,9 @@
 				   <div class="form">
 					  <form method="" html="{:multipart=>true}" data-remote="true" action="" accept-charset="UTF-8">					  
 					  <input id="email" class="form-control" type="password" placeholder="Email Address" name="password">
-					  <input id="password" class="form-control" type="password" placeholder="Password" name="password_confirmation">
-					  <input id="password_confirmation" class="form-control" type="password" placeholder="Confirm Password" name="password_confirmation">
-					  <input class="btn btn-default btn-register" type="button" value="Sign Up" name="commit">
+					  <input id="password" class="form-control" type="password" placeholder="Password" name="password_confirmation" />
+					  <input id="password_confirmation" class="form-control" type="password" placeholder="Confirm Password" name="password_confirmation" />
+					  <input class="btn btn-default btn-register" type="button" value="Sign Up" name="commit" />
 					  </form>
 					  </div>
 				  </div>
@@ -1623,14 +1623,28 @@
 			  <div class="box">
 				<div class="content forgotBox" style="display:none;">
 				 <div class="form">
-					  <p>Don't worry ! Just fill in your email and we'll send you a link to reset your password.</p>
+					  <p>Don't worry ! Just fill in your email and we'll send you a activation code to reset your password.</p>
 					<form method="" html="{:multipart=>true}" data-remote="true" action="" accept-charset="UTF-8">
-					<input id="email" class="form-control" type="text" placeholder="EMail Address" name="email">					
-					<input class="btn btn-default btn-login" type="button" value="Reset Password" name="commit">
+					<input id="email" class="form-control" type="text" placeholder="EMail Address" name="email" />					
+					<input class="btn btn-default btn-login" type="button" id="sendCode" onclick="javascript: showcodeForm();" value="Reset Password" />
 					</form>
 					</div>
 				</div>
 			</div>
+			<div class="box">
+				<div class="content codeForm" style="display:none;">
+				 <div class="form">
+					  <p>Please enter the 6 Digit code sent to your registered mail ID to update the password.</p>
+					<form method="" html="{:multipart=>true}" data-remote="true" action="" accept-charset="UTF-8">					  
+					<input id="email" class="form-control" type="password" placeholder="Enter Code" name="password" />
+					<input id="password" class="form-control" type="password" placeholder="Enter Password" name="password_confirmation">
+					<input id="password_confirmation" class="form-control" type="password" placeholder="Confirm Password" name="password_confirmation" />
+					<input class="btn btn-default btn-login"  type="button" value="Confirm" />
+					</form>
+					</div>
+				</div>
+			</div>
+
 		  </div>
 		  <div class="modal-footer">
 			  <div class="forgot login-footer">
