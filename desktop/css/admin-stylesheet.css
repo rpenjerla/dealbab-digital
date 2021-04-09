@@ -1,0 +1,9 @@
+.complete{
+    display:none;
+}
+
+.more{ 
+    padding:3px;
+    cursor:pointer;
+    clear:left;
+}

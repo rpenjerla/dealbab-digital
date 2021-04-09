@@ -82,7 +82,13 @@ function loginAjax(){
 /*   Simulate error message from the server   */
      shakeModal();
 }
-
+function openCouponModal(){
+    showLoginForm();
+    setTimeout(function(){
+        $('#couponModal').modal('show');    
+    }, 230);
+    
+}
 function shakeModal(){
     $('#loginModal .modal-dialog').addClass('shake');
              $('.error').addClass('alert alert-danger').html("Invalid email/password combination");
