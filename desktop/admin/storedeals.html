@@ -1,116 +1,254 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8" />
-<meta name="format-detection" content="telephone=no" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href="../image/favicon.png" rel="icon" />
-<title>Dealbab Admin</title>
-<meta name="description" content="deal bab ">
-<!-- CSS Part Start-->
-<link rel="stylesheet" type="text/css" href="../js/bootstrap/css/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" href="../css/font-awesome/css/font-awesome.min.css" />
-<link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
-<link rel="stylesheet" type="text/css" href="../css/admin-stylesheet.css" />
-<link rel="stylesheet" type="text/css" href="../css/responsive.css" />
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans' type='text/css'>
-<!-- CSS Part End-->
+  <meta charset="UTF-8" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href="../image/favicon.png" rel="icon" />
+  <title>Dealbab Admin</title>
+  <meta name="description" content="deal bab ">
+  <!-- CSS Part Start-->
+  <link rel="stylesheet" type="text/css" href="../js/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="../css/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+  <link rel="stylesheet" type="text/css" href="../css/admin-stylesheet.css" />
+  <link rel="stylesheet" type="text/css" href="../css/responsive.css" />
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans' type='text/css'>
+
+
+  <!-- CSS Part End-->
+  <!-- JS Part Start-->
+  <script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://cdn.rawgit.com/atatanasov/gijgo/master/dist/combined/js/gijgo.min.js"
+    type="text/javascript"></script>
+  <link href="https://cdn.rawgit.com/atatanasov/gijgo/master/dist/combined/css/gijgo.min.css" rel="stylesheet"
+    type="text/css" />
+  <script type="text/javascript" src="../js/jquery.multi-select.min.js"></script>
+  <script type="text/javascript" src="../js/admin-custom.js"></script>
+
+
+
 </head>
+
 <body>
-<div class="wrapper-wide">
-  <div id="header">
-    <!-- Header Start-->
-    <header class="header-row">
-      <div class="container">
-        <div class="table-container">
-          <!-- Logo Start -->
-          <div class="col-table-cell col-lg-1 col-md-1 col-sm-12 col-xs-12 inner">
-            <div id="logo"><a href="index.html"><img class="img-responsive" src="../image/logo.png" title="MarketShop" alt="MarketShop" /></a></div>
-          </div>
-          <!-- Logo End -->		  
-		    <!-- Search Start-->
-          <div class="col-table-cell col-lg-8 col-md-5 col-sm-12 col-xs-12 inner">
-          
-          </div>
-          <!-- Search End-->
-		  <!-- Right Start-->
-          <div class="col-table-cell col-lg-3 col-md-6 col-sm-12 col-xs-12 inner">
-		  <div class="flex-container">
-		  <!-- Language Start -->	
-            <div class="flex-div">		  
-			<div id="language" class="btn-group">
-              <button class="btn-link dropdown-toggle" data-toggle="dropdown"> <span> <img src="../image/flags/gb.png" alt="English" title="English">English <i class="fa fa-caret-down"></i></span></button>
-              <ul class="dropdown-menu">
-                <li>
-                  <button class="btn btn-link btn-block language-select" type="button" name="GB"><img src="../image/flags/gb.png" alt="English" title="English" /> English</button>
-                </li>
-                <li>
-                  <button class="btn btn-link btn-block language-select" type="button" name="GB"><img src="../image/flags/ar.png" alt="Arabic" title="Arabic" /> Arabic</button>
-                </li>
-              </ul>
+  <div class="wrapper-wide">
+    <div id="header">
+      <!-- Header Start-->
+      <header class="header-row">
+        <div class="container">
+          <div class="table-container">
+            <!-- Logo Start -->
+            <div class="col-table-cell col-lg-1 col-md-1 col-sm-12 col-xs-12 inner">
+              <div id="logo"><a href="index.html"><img class="img-responsive" src="../image/logo.png" title="MarketShop"
+                    alt="MarketShop" /></a></div>
             </div>
-			</div>
-			<!-- Language End -->
-		  
-		   
+            <!-- Logo End -->
+            <!-- Search Start-->
+            <div class="col-table-cell col-lg-8 col-md-5 col-sm-12 col-xs-12 inner">
 
-			</div>
+            </div>
+            <!-- Search End-->
+            <!-- Right Start-->
+            <div class="col-table-cell col-lg-3 col-md-6 col-sm-12 col-xs-12 inner">
+              <div class="flex-container">
+                <!-- Language Start -->
+                <div class="flex-div">
+                  <div id="language" class="btn-group">
+                    <button class="btn-link dropdown-toggle" data-toggle="dropdown"> <span> <img
+                          src="../image/flags/gb.png" alt="English" title="English">English <i
+                          class="fa fa-caret-down"></i></span></button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <button class="btn btn-link btn-block language-select" type="button" name="GB"><img
+                            src="../image/flags/gb.png" alt="English" title="English" /> English</button>
+                      </li>
+                      <li>
+                        <button class="btn btn-link btn-block language-select" type="button" name="GB"><img
+                            src="../image/flags/ar.png" alt="Arabic" title="Arabic" /> Arabic</button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- Language End -->
+
+
+
+              </div>
+            </div>
+            <!-- Right End-->
           </div>
-          <!-- Right End-->
-	 </div>
+        </div>
+      </header>
+      <!-- Header End-->
+      <!-- Main Menu Start-->
+      <nav id="menu" class="navbar">
+        <div class="container">
+          <div class="navbar-header"> <span class="visible-xs visible-sm"> Menu <b></b></span></div>
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+
+              <li class="menu_brands dropdown"><a href="hotdeals.html">Hot Deals</a>
+              </li>
+              <li class="custom-link"><a href="storedeals.html">Store Deals</a></li>
+
+
+
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Main Menu End-->
+
+    </div>
+    <div id="container">
+      <div class="container bodyColor">
+        <h3 class="subtitle">Store  DEALS</h3>
+        <div class="alert alert-success">
+          <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+          <strong>Success!</strong> Indicates a successful or positive action.
+        </div>
+
+        <div class="alert alert-info">
+          <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+          <strong>Info!</strong> Indicates a neutral informative change or action.
+        </div>
+
+        <div class="alert alert-warning">
+          <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+          <strong>Warning!</strong> Indicates a warning that might need attention.
+        </div>
+
+        <div class="alert alert-danger">
+          <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+          <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+        </div>
+
+
+        <div id="signupbox" class="mainbox col-md-7 col-sm-8 ">
+          <div class="panel">
+            <div class="panel-body">
+              <form method="post" action=".">
+                <formclass="form-horizontal" method="post">                 
+                  <div id="div_id_password1" class="form-group required">
+                    <label for="id_password1" class="control-label col-md-4">Store </label>
+                    <div class="controls col-md-8 " style="margin-bottom:10px">
+                      <select id="photo-reject-list" name="people" class="input-md textinput textInput form-control">
+                        <option value="0">Catagory 1</option>
+                        <option value="1">Catagory 2</option>
+                        <option value="2">Catagory 3</option>
+                        <option value="3">Catagory 4</option>
+                        <option value="4">Catagory 5</option>
+                        <option value="other">Others</option>
+                      </select>
+                    </div>
+                    
+                  </div> <div class="clear"></div>
+                  <div id="otherType" class="otherType" style="display:none;">
+                    <div id="" class="form-group required">
+                      <label for="" class="col-md-4"> Store ID </label>
+                      <div class="controls col-md-8 regions " >
+                        <input class="input-md textinput textInput form-control" id="id_catagory" name="catagory"
+                        placeholder="Enter Store ID" style="margin-bottom: 10px" type="text" />
+                      </div>
+                      </div>
+                      <div id="" class="form-group required">
+                        <label for="" class="col-md-4"> Store Name </label>
+                        <div class="controls col-md-8 regions " >
+                          <input class="input-md textinput textInput form-control" id="id_catagory" name="catagory"
+                          placeholder="Enter Store Name" style="margin-bottom: 10px" type="text" />
+                        </div>
+                        </div>
+                        <div id="" class="form-group required">
+                          <label for="" class="col-md-4"> Store Image URL </label>
+                          <div class="controls col-md-8 regions ">
+                            <input class="input-md textinput textInput form-control" id="id_catagory" name="catagory"
+                            placeholder="Enter Image URL" style="margin-bottom: 10px" type="text" />
+                          </div>
+                          </div>
+                          <div id="" class="form-group required">
+                            <label for="" class="col-md-4">  Store URL  </label>
+                            <div class="controls col-md-8 regions ">
+                              <input class="input-md textinput textInput form-control" id="id_catagory" name="catagory"
+                              placeholder="Enter Store URL" style="margin-bottom: 10px" type="text" />
+                            </div>
+                            </div>
+                  <div class="clear"></div>
+                  
+                  
+                  </div>
+                  <div id="div_id_company" class="form-group required">
+                    <label for="id_company" class="col-md-4"> Catalogue Name </label>
+                    <div class="controls col-md-8 ">
+                      <input class="input-md textinput textInput form-control" id="id_company" name="company"
+                        placeholder="Enter Catalogue Name" style="margin-bottom: 10px" type="text" />
+                    </div>
+                  </div>
+                  <div id="div_id_catagory" class="form-group required">
+                    <label for="id_catagory" class="control-label col-md-4"> Catalogue Image URL </label>
+                    <div class="controls col-md-8 ">
+                      <input class="input-md textinput textInput form-control" id="id_catagory" name="catagory"
+                        placeholder="Enter Catalogue Image URL" style="margin-bottom: 10px" type="text" />
+                    </div>
+                  </div>
+                  <div id="div_id_number" class="form-group required">
+                    <label for="id_number" class="control-label col-md-4">File Upload  </label>
+                    <div class="controls col-md-8 ">
+                      <input class="input-md textinput textInput form-control" 
+                        style="margin-bottom: 10px" type="file" />
+                    </div>
+                  </div>
+                  <div id="" class="form-group required">
+                    <label for="" class="col-md-4"> Regions </label>
+                    <div class="controls col-md-8 regions " style="margin-bottom: 10px; ">
+                      <form class="demo-example">
+                        <select id="people2" style="width:37.2rem" name="people" multiple>
+                          <option value="0">Catagory 1</option>
+                          <option value="1">Catagory 2</option>
+                          <option value="2">Catagory 3</option>
+                          <option value="3">Catagory 4</option>
+                          <option value="4">Catagory 5</option>
+                          <option value="5">Catagory 6</option>
+                        </select>
+                      </form>
+                    </div>
+                  </div>                
+                  <div class="form-group">
+                    <div class="aab controls col-md-4 "></div>
+                    <div class="controls col-md-8 ">
+                      <input type="button" name="Create" value="Create" class="btn btn-primary btn btn-info"
+                        id="submit-id-signup" />
+
+                    </div>
+                  </div>
+              </form>
+
+              </form>
+            </div>
+          </div>
+        </div>
+
       </div>
-    </header>
-    <!-- Header End-->
-    <!-- Main Menu Start-->
-	 <nav id="menu" class="navbar">
-    <div class="container">     
-        <div class="navbar-header"> <span class="visible-xs visible-sm"> Menu <b></b></span></div>
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-			<ul class="nav navbar-nav">         
-			  
-			  <li class="menu_brands dropdown"><a href="hotdeals.html">Hot Deals</a>             
-			  </li>
-			  <li class="custom-link"><a href="storedeals.html">Store Deals</a></li>
-			
-			 
-			
-			  
-			</ul>
-		  </div>     
     </div>
-	</nav>
-    <!-- Main Menu End-->
+    <!--Footer Start-->
+    <footer id="footer">
+      <div class="fpart-second ">
+        <div class="container copyrights">
+          <div class="row" style="text-align:center">
+            @ 2021 Dealbab.com
+          </div>
+        </div>
+      </div>
 
+
+    </footer>
+    <!--Footer End-->
   </div>
-  <div id="container">
-    <div class="container">	
-      
-    </div>
-  </div>
-  <!--Footer Start-->
-  <footer id="footer">   
-	 <div class="fpart-second ">
-      <div class="container copyrights">
-       <div class="row" style="text-align:center">
-	    @ 2021 Dealbab.com
-	   </div>
-	 </div>
-	</div>
-	
-	
-    <div id="back-top"><a data-toggle="tooltip" title="Back to Top" href="javascript:void(0)" class="backtotop"><i class="fa fa-chevron-up"></i></a></div>
-  </footer>
-  <!--Footer End-->
-</div>
-<!-- JS Part Start-->
-<script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="../js/bootstrap/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="../js/admin-custom.js"></script>
-<script type="text/javascript" src="../js/login-register.js"></script>
-<!-- JS Part End-->
-
-
+ 
 
 
 </body>
+
 </html>
